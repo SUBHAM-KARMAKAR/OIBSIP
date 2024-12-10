@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const projects = [
-        { name: "Landing Page", link: "https://subham-karmakar.github.io/OIBSIP/landing-page/" },
         { name: "Portfolio", link: "https://subham-karmakar.github.io/OIBSIP/portfolio/" },
-        { name: "Temp Converter", link: "https://subham-karmakar.github.io/OIBSIP/Temp-Converter/" }
+        { name: "Temp Converter", link: "https://subham-karmakar.github.io/OIBSIP/Temp-Converter/" },
+        { name: "Landing Page", link: "https://subham-karmakar.github.io/OIBSIP/landing-page/" }
     ];
 
     const projectsList = document.getElementById('projects-list');
