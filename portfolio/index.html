@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website - Easy Tutorials</title>
+    <link rel="stylesheet" href="protfoliostyle.css">
+    <script src="https://kit.fontawesome.com/6004d1c548.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+					<i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Learner</p>
+                <h1>Hi, I'm <span>Subham</span> Karmakar, <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="container1">
+                        <img src="pro77.png" alt="Avatar" class="image">
+                        <div class="overlay">Hey here my details!</div>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="font-size:20px">Hello! I'm Subham, a passionate and dedicated MERN Stack and Web Developer hailing from the vibrant tech scene of India. Currently in my First year of Master of Science in computer science, I specialize in building dynamic, responsive, and feature-rich websites and web applications. My expertise lies in designing intuitive front-end interfaces with React, developing scalable back-end solutions with Node.js, and managing databases efficiently with MongoDB. I am well-versed in creating websites that are not only visually appealing but also optimized for performance, accessibility, and seamless user experiences. With a keen interest in emerging web technologies, I strive to deliver innovative solutions that cater to both user and business needs. My journey in web development is driven by a passion for crafting impactful digital platforms that bring ideas to life.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>UI/UX</span><br>Designing intuitive web and app interfaces to enhance user experiences.</li>
+							<li><span>Web Development</span><br>Building dynamic and responsive websites and web applications using HTML5, CSS3, JavaScript, and the MERN stack (MongoDB, Express.js, React, Node.js).</li>
+							<li><span>Languages</span><br>HTML5, CSS3, JavaScript, Python, Java, C.</li>
+							<li><span>Communication</span><br>Oral: English, Hindi, Bengali. Written: English, Bengali.</li>
+							<li><span>Version Control</span><br>Proficient with Git and GitHub for collaborative development and version control.</li>
+							<li><span>Typing</span><br>Typing proficiency of 70 WPM with 80% accuracy.</li>
+							<li><span>Technical Skills</span><br>Expertise in full-stack development with the MERN stack: MongoDB for database management, Express.js for backend frameworks, React for front-end development, and Node.js for server-side scripting.</li>
+							<li><span>Language Proficiency</span><br>Strong command of multiple programming languages for versatile development solutions.</li>
+						</ul>
+						
+						
+						
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+							<li><span>Responsive Web Design Certification</span><br>from freeCodeCamp.org</li>
+							<li><span>Web Development and Design Intern</span><br>
+								at <a href="https://oasisinfobyte.com" target="_blank" style="text-decoration: none; color: #ff004f;">Oasis Infobyte</a>
+							</li>
+						</ul>
+						
+                    </div>
+                    <div class="tab-contents" id="education">
+						<ul>
+							<li>
+								<span>2024 - Present</span><br>
+								<strong>Visva-Bharati University</strong> | Master of Science in Computer Science<br>
+								<em>Bolpur, Birbhum</em><br>
+								<ul>
+									<li>Pursuing</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>2021 - 2024</span><br>
+								<strong>Visva-Bharati University</strong> | Bachelor of Science in Computer Science<br>
+								<em>Bolpur, Birbhum</em><br>
+								<ul>
+									<li>Major Relevant Coursework: Web Development, Artificial Intelligence, Data Structures & Algorithms, Database Systems, Software Engineering, Discrete Structures, Operating Systems, Computer Networks, Design and Analysis of Algorithms, Theory of Computation, Computer Graphics.</li>
+									<li>Minor Relevant Coursework: English</li>
+								</ul>
+
+
+								<ul>
+									<li>Graduated</li>
+									<li>Cumulative GPA: 6.23/10</li>
+								</ul>
+							</li>
+							<li>
+								<span>2013 - 2020</span><br>
+								<strong>Parulia K.K High School</strong> | Higher Secondary<br>
+								<em>Parulia, Puba Bardhaman</em><br>
+								<ul>
+									<li>Percentile: 89.89%</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					
+                </div>
+            </div>
+        </div>
+    </div>
+
+	 <!---------------------sevices------------------>
+	
+	 <div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div class="service-item">
+					<i class="fa-solid fa-code"></i>
+					<h2>Web Development</h2>
+					<p>I specialize in building dynamic, responsive websites and web applications using cutting-edge technologies such as HTML5, CSS3, JavaScript, and the MERN stack (MongoDB, Express.js, React, Node.js).</p>
+					<a href="#">Learn more</a>
+				</div>
+				
+				<div class="service-item">
+					<i class="fa-solid fa-object-group"></i>
+					<h2>UI/UX Design</h2>
+					<p>Designing intuitive web and app interfaces to enhance user experiences. I focus on creating user-friendly designs that are both visually appealing and functional.</p>
+					<a href="#">Learn more</a>
+				</div>
+				
+				<div class="service-item">
+					<i class="fa-solid fa-database"></i>
+					<h2>Full-Stack Development</h2>
+					<p>Expertise in full-stack development using the MERN stack, including efficient database management with MongoDB, robust back-end solutions with Node.js, and interactive front-end designs with React.</p>
+					<a href="#">Learn more</a>
+				</div>
+				
+				<div class="service-item">
+					<i class="fa-solid fa-language"></i>
+					<h2>Language Proficiency</h2>
+					<p>Strong command of multiple programming languages, including HTML5, CSS3, JavaScript, Python, Java, and C, enabling versatile solutions for diverse project needs.</p>
+					<a href="#">Learn more</a>
+				</div>
+				
+				<div class="service-item">
+					<i class="fa-solid fa-keyboard"></i>
+					<h2>Typing & Version Control</h2>
+					<p>Proficient in version control with Git and GitHub for collaborative development, along with a typing proficiency of 70 WPM with 80% accuracy for efficient workflows.</p>
+					<a href="#">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	 <!---------------------portfolio------------------>
+	<div id="portfolio">
+	 <div class="container">
+	    <h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+
+			<div class="work">
+				<a href="temp_converter.html">TEMPERATURE CONVERTER</a>
+				<i class="fa-solid fa-up-right-from-square"></i>
+			   </div>
+
+			   <div class="work">
+				<a href="landing_page.html">LANDING PAGE</a>
+				<i class="fa-solid fa-up-right-from-square"></i>
+			   </div>
+
+
+		 <div class="work">
+		 <a href="digic.html">DIGITAL CLOCK</a>
+		 <i class="fa-solid fa-up-right-from-square"></i>
+		</div>
+		
+		<div class="work">
+		 <a href="weather.html">WEATHER APP</a>
+		 <i class="fa-solid fa-up-right-from-square"></i>
+		</div>
+		
+		<div class="work">
+		 <a href="cal.html">CALCULATOR</a>
+		 <i class="fa-solid fa-up-right-from-square"></i>
+		</div>
+		
+		<div class="work">
+		 <a href="qr.html">QR GENARATOR</a>
+		 <i class="fa-solid fa-up-right-from-square"></i>
+		</div>
+		
+		<div class="work">
+		 <a href="pass.html">PASSWORD HIDER</a>
+		 <i class="fa-solid fa-up-right-from-square"></i>
+		</div>
+		
+		<div class="work">
+		 <a href="select.html">SOCIAL PLATFORMS SELECTOR</a>
+		 <i class="fa-solid fa-up-right-from-square"></i>
+		</div>
+		
+		
+		<div class="work">
+		 <a href="drag.html">DRAG LIST</a>
+		 <i class="fa-solid fa-up-right-from-square"></i>
+		</div>
+		
+		<div class="work">
+		 <a href="popup.html">SUBMITION PAGE</a>
+		 <i class="fa-solid fa-up-right-from-square"></i>
+		</div>
+		
+		<div class="work">
+		 <a href="product.html">ONLINE DRESSSHOP</a>
+		 <i class="fa-solid fa-up-right-from-square"></i>
+		</div>
+		</div>
+	 </div>
+	</div>
+	
+	<!------------Contact---------->
+	<div id="contact">
+	  <div class="container">
+	   <div class="row">
+	    <div class="contact-left">
+		 <h1 class="sub-title">contact Me</h1>
+		 <p><i class="fa-solid fa-paper-plane"></i>subhamkarmakar677@gmail.com</p>
+		 <p><i class="fa-solid fa-phone"></i>8145508186</p>
+		 <div class="social-icons">
+			<!-- Facebook Link -->
+			<a href="https://www.facebook.com/subham.karmakar.927980/" target="_blank">
+			  <i class="fa-brands fa-facebook"></i>
+			</a>
+			
+			<!-- Twitter Link -->
+			<a href="https://x.com/SubhamKarmakar_" target="_blank">
+			  <i class="fa-brands fa-twitter"></i>
+			</a>
+			
+			<!-- Instagram Link -->
+			<a href="https://www.instagram.com/_subham_karmakar_/" target="_blank">
+			  <i class="fa-brands fa-instagram"></i>
+			</a>
+			
+			<!-- LinkedIn Link -->
+			<!-- LinkedIn Link -->
+           <a href="https://www.linkedin.com/in/subham-karmakar-212b91261" target="_blank">
+	       <i class="fa-brands fa-linkedin"></i>
+           </a>
+  
+		  </div>
+		  
+		  
+		 
+		 <a href="SUBHAM KARMAKAR RESUME.pdf" download class="btn btn2">Download CV</a>
+
+		 
+		</div>
+		
+		<div class="contact-right">
+		   <form name="submit-to-google-sheet">
+		    <input type="text" name="Name" placeholder="Your Name" required>
+			<input type="email" name="email" placeholder="Your Email" required>
+		    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+		    <button type="submit" class="btn btn2">submit</button>
+		   </form>
+		   <span id="msg"></span>
+		</div>
+	   </div>
+	  </div>
+	  
+	  <div class="copyright">
+	   <p>Made with<i class="fa-solid fa-heart"></i>by subham karmakar</p>
+	  </div>
+	  
+	  
+	</div>
+	
+	
+	
+	
+	
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+			
+            /*document.querySelector(".tab-links[onclick='opentab(\"" + tabname + "\")']").classList.add("active-link");*/
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+	
+	<script>
+	 
+	 var sidemenu=document.getElementById("sidemenu")
+	 
+	 function openmenu()
+	 {
+	  sidemenu.style.right = "0";
+	 }
+	 
+	 
+	 function closemenu()
+	 {
+	  sidemenu.style.right = "-200px";
+	 }
+	 
+	</script>
+	
+	<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyFBv99ZeSNYMbA0a3yVb2gOiLU3VSwdeh547zgL460t4_V_KgRIkepsL5aKwVQUMU/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+	   msg.innerHTML = "Message sent successfully"
+	   setTimeout(function()
+	   {
+	    msg.innerHTML = ""
+	   },5000)
+	   form.reset()
+	  })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+	
+</body>
+
+</html>
